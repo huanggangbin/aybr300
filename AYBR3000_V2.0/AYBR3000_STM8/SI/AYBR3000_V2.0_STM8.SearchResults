@@ -1,14 +1,4 @@
----- bool Matches (13 in 7 files) ----
-Main.c (user):bool col_on_flag = FALSE;
-Main.c (user):bool flag_lcd_off = FALSE;
-Simple_protocol.c (user):static inline bool receive_byte(uint8 *data);
-Simple_protocol.c (user):static bool data_received_flag = FALSE;
-Simple_protocol.c (user):bool simple_protocol_data_received(void)
-Simple_protocol.c (user):    bool ret;
-Simple_protocol.c (user):static inline bool receive_byte(uint8 *data)
-Simple_protocol.h (user):bool simple_protocol_data_received(void);
-Task_manager.c (user):bool task_add(pfunc task, uint16 schedule_period)
-Task_manager.h (user):bool task_add(pfunc task, uint16 schedule_time);
-Timing.c (user):bool timing_count_end(Timing_type *pdata)
-Timing.h (user):    bool  count_end;    
-Timing.h (user):extern bool timing_count_end(Timing_type *pdata);
+---- PACKET_MAX_LEN Matches (3 in 2 files) ----
+Simple_protocol.c (user):#define PACKET_MAX_LEN 100
+Simple_protocol.h (user):#define PACKET_MAX_LEN 100
+Simple_protocol.h (user):    uint8   data[PACKET_MAX_LEN - PACKET_HEADER_LEN];

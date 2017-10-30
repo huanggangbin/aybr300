@@ -26,7 +26,7 @@ void LCD_GLASS_Init(void) {
 
     /* Initialize the LCD */
     LCD_Init(LCD_Prescaler_2, LCD_Divider_16, LCD_Duty_1_4,
-           LCD_Bias_1_3, LCD_VoltageSource_Internal);              
+    LCD_Bias_1_3, LCD_VoltageSource_Internal);              
     /*时钟预分频、频率降低分母(16-31)、duty(每个通道的占功比), bias最小电压/最大电压,参数,内部提供电压*/
 
     /* Mask register*/
@@ -39,7 +39,7 @@ void LCD_GLASS_Init(void) {
     LCD_DeadTimeConfig(LCD_DeadTime_2);                   //no dead time(在两个fram之间的phase个数, frame频率 = phase频率 * duty)
     LCD_PulseOnDurationConfig(LCD_PulseOnDuration_1);      //每个电压量脉冲持续时间(最大是这个phase的1/2 = PON[2:0] / DIV[3:0])
 
-    LCD_Cmd(ENABLE); /*!< Enable LCD peripheral */
+    LCD_Cmd(ENABLE);            /*!< Enable LCD peripheral */
 
     LCD_Set_BackLight_On();       //液晶屏的光源
 
@@ -50,11 +50,8 @@ void LCD_GLASS_Init(void) {
 void LCD_GLASS_Sleep(void) 
 {
     LCD_Set_BackLight_Off();
-
     LCD_Cmd(DISABLE);
-
     CLK_PeripheralClockConfig(CLK_Peripheral_LCD, DISABLE);
-    
 }
 
 /**********************************************************/
@@ -65,7 +62,6 @@ void LCD_GLASS_WakeUp(void)
     //LCD_GLASS_Refresh_Time();          // 获取当前时间
     LCD_Set_BackLight_On();
     CLK_PeripheralClockConfig(CLK_Peripheral_LCD, ENABLE);
-    
     LCD_Cmd(ENABLE);
 }
 

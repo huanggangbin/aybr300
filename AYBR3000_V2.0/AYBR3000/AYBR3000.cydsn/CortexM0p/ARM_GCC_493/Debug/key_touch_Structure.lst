@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 1
 
 
    1              		.cpu cortex-m0plus
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
   31:Generated_Source\PSoC4/key_touch_Structure.c **** * of the application or use of any product or circuit described herein. Cypress
   32:Generated_Source\PSoC4/key_touch_Structure.c **** * does not authorize its products for use as critical components in life-support
   33:Generated_Source\PSoC4/key_touch_Structure.c **** * systems where a malfunction or failure may reasonably be expected to result in
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 2
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 2
 
 
   34:Generated_Source\PSoC4/key_touch_Structure.c **** * significant injury to the user. The inclusion of Cypress' product in a life-
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
   88:Generated_Source\PSoC4/key_touch_Structure.c **** * Declare Noise Envelope data structures
   89:Generated_Source\PSoC4/key_touch_Structure.c **** *******************************************************************************/
   90:Generated_Source\PSoC4/key_touch_Structure.c **** static SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT key_touch_noiseEnvlpButton0[key_touch_BUTTON0_NUM_SENSO
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 3
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 3
 
 
   91:Generated_Source\PSoC4/key_touch_Structure.c **** static SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT key_touch_noiseEnvlpButton1[key_touch_BUTTON1_NUM_SENSO
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  145:Generated_Source\PSoC4/key_touch_Structure.c ****             &key_touch_ioList[2u],
  146:Generated_Source\PSoC4/key_touch_Structure.c ****             (void *)&key_touch_dsRam.wdgtList.button2,
  147:Generated_Source\PSoC4/key_touch_Structure.c ****             key_touch_dsRam.snsList.button2,
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 4
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 4
 
 
  148:Generated_Source\PSoC4/key_touch_Structure.c ****             (void *)0u,
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  202:Generated_Source\PSoC4/key_touch_Structure.c ****             key_touch_noiseEnvlpButton6,
  203:Generated_Source\PSoC4/key_touch_Structure.c ****         },
  204:Generated_Source\PSoC4/key_touch_Structure.c ****         { /* Button7 */
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 5
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 5
 
 
  205:Generated_Source\PSoC4/key_touch_Structure.c ****             &key_touch_ioList[7u],
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  259:Generated_Source\PSoC4/key_touch_Structure.c ****             key_touch_BUTTON11_NUM_SENSORS,
  260:Generated_Source\PSoC4/key_touch_Structure.c ****             (uint8)key_touch_WD_BUTTON_E,
  261:Generated_Source\PSoC4/key_touch_Structure.c ****             key_touch_BUTTON11_NUM_SENSORS,
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 6
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 6
 
 
  262:Generated_Source\PSoC4/key_touch_Structure.c ****             key_touch_noiseEnvlpButton11,
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  316:Generated_Source\PSoC4/key_touch_Structure.c ****     },
  317:Generated_Source\PSoC4/key_touch_Structure.c ****     { /* 4: Button4_Sns0 */
  318:Generated_Source\PSoC4/key_touch_Structure.c ****         (reg32 *)key_touch_Sns__4__HSIOM,
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 7
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 7
 
 
  319:Generated_Source\PSoC4/key_touch_Structure.c ****         (reg32 *)key_touch_Sns__4__PC,
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  373:Generated_Source\PSoC4/key_touch_Structure.c ****         (reg32 *)key_touch_Sns__9__HSIOM,
  374:Generated_Source\PSoC4/key_touch_Structure.c ****         (reg32 *)key_touch_Sns__9__PC,
  375:Generated_Source\PSoC4/key_touch_Structure.c ****         (reg32 *)key_touch_Sns__9__DR,
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 8
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 8
 
 
  376:Generated_Source\PSoC4/key_touch_Structure.c ****         (reg32 *)key_touch_Sns__9__PS,
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  430:Generated_Source\PSoC4/key_touch_Structure.c ****         key_touch_BUTTON0_SIGPFC,
  431:Generated_Source\PSoC4/key_touch_Structure.c ****     },
  432:Generated_Source\PSoC4/key_touch_Structure.c ****     { /* Button1 */
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 9
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 9
 
 
  433:Generated_Source\PSoC4/key_touch_Structure.c ****         key_touch_BUTTON1_RESOLUTION,
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  487:Generated_Source\PSoC4/key_touch_Structure.c ****         key_touch_BUTTON4_NNOISE_TH,
  488:Generated_Source\PSoC4/key_touch_Structure.c ****         key_touch_BUTTON4_HYSTERESIS,
  489:Generated_Source\PSoC4/key_touch_Structure.c ****         key_touch_BUTTON4_ON_DEBOUNCE,
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 10
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 10
 
 
  490:Generated_Source\PSoC4/key_touch_Structure.c ****         key_touch_BUTTON4_LOW_BSLN_RST,
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  544:Generated_Source\PSoC4/key_touch_Structure.c ****             key_touch_BUTTON7_IDAC_MOD0,
  545:Generated_Source\PSoC4/key_touch_Structure.c ****         },
  546:Generated_Source\PSoC4/key_touch_Structure.c ****         key_touch_BUTTON7_SNS_CLK,
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 11
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 11
 
 
  547:Generated_Source\PSoC4/key_touch_Structure.c ****         key_touch_BUTTON7_SNS_CLK_SOURCE,
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  601:Generated_Source\PSoC4/key_touch_Structure.c ****     },
  602:Generated_Source\PSoC4/key_touch_Structure.c ****     { /* Button11 */
  603:Generated_Source\PSoC4/key_touch_Structure.c ****         key_touch_BUTTON11_RESOLUTION,
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 12
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 12
 
 
  604:Generated_Source\PSoC4/key_touch_Structure.c ****         key_touch_BUTTON11_FINGER_TH,
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  658:Generated_Source\PSoC4/key_touch_Structure.c ****     /* Button11 */
  659:Generated_Source\PSoC4/key_touch_Structure.c ****     key_touch_BUTTON11_SNS0_IDAC_COMP0,
  660:Generated_Source\PSoC4/key_touch_Structure.c **** };
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 13
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 13
 
 
  661:Generated_Source\PSoC4/key_touch_Structure.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  715:Generated_Source\PSoC4/key_touch_Structure.c **** 
  716:Generated_Source\PSoC4/key_touch_Structure.c **** 
  717:Generated_Source\PSoC4/key_touch_Structure.c **** /*******************************************************************************
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 14
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 14
 
 
  718:Generated_Source\PSoC4/key_touch_Structure.c **** * Function Name: key_touch_DsInitialize
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  772:Generated_Source\PSoC4/key_touch_Structure.c ****     #endif /* #if (0u != key_touch_SELF_TEST_EN) */
  773:Generated_Source\PSoC4/key_touch_Structure.c ****    
  774:Generated_Source\PSoC4/key_touch_Structure.c ****     /* Initialize RAM widget data */
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 15
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 15
 
 
  775:Generated_Source\PSoC4/key_touch_Structure.c ****     key_touch_dsRam.wdgtList = key_touch_ramWidgetInit;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  829:Generated_Source\PSoC4/key_touch_Structure.c **** * Function Name: DsParseParamId
  830:Generated_Source\PSoC4/key_touch_Structure.c **** ****************************************************************************//**
  831:Generated_Source\PSoC4/key_touch_Structure.c **** *
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 16
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 16
 
 
  832:Generated_Source\PSoC4/key_touch_Structure.c **** * \brief
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  866:Generated_Source\PSoC4/key_touch_Structure.c ****     pData->type       = LO8((paramId & PARAM_TYPE_MASK)  >> PARAM_TYPE_OFFSET);
   45              		.loc 1 866 0
   46 0012 850F     		lsr	r5, r0, #30
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 17
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 17
 
 
   47 0014 CD71     		strb	r5, [r1, #7]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  907:Generated_Source\PSoC4/key_touch_Structure.c ****         {
  908:Generated_Source\PSoC4/key_touch_Structure.c ****             if (0u == pData->flash)
  909:Generated_Source\PSoC4/key_touch_Structure.c ****             {
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 18
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 18
 
 
  910:Generated_Source\PSoC4/key_touch_Structure.c ****                 /* Check offset for RAM Data Structure range */
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
   78              		.loc 1 848 0
   79 0040 0020     		mov	r0, #0
   80 0042 00E0     		b	.L4
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 19
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 19
 
 
   81              	.L10:
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  115 0066 05D4     		bmi	.L13
  116 0068 07E0     		b	.L5
  117              	.L7:
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 20
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 20
 
 
  964:Generated_Source\PSoC4/key_touch_Structure.c ****             {
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  147              		.global	key_touch_DsInitialize
  148              		.code	16
  149              		.thumb_func
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 21
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 21
 
 
  150              		.type	key_touch_DsInitialize, %function
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  195              		.loc 1 779 0
  196 0036 0C1C     		mov	r4, r1
  197 0038 0C34     		add	r4, r4, #12
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 22
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 22
 
 
  781:Generated_Source\PSoC4/key_touch_Structure.c ****         {
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  241 005c EFD1     		bne	.L20
  808:Generated_Source\PSoC4/key_touch_Structure.c **** 
  242              		.loc 1 808 0 is_stmt 1
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 23
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 23
 
 
  243              		@ sp needed
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
 1019:Generated_Source\PSoC4/key_touch_Structure.c **** *  Refer to the \ref group_structures section for details of the data structure 
 1020:Generated_Source\PSoC4/key_touch_Structure.c **** *  organization and examples of its register access.
 1021:Generated_Source\PSoC4/key_touch_Structure.c **** *
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 24
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 24
 
 
 1022:Generated_Source\PSoC4/key_touch_Structure.c **** * \param  paramId 
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  285              		.loc 1 1055 0
  286 0010 6B46     		mov	r3, sp
  287 0012 5B79     		ldrb	r3, [r3, #5]
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 25
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 25
 
 
  288 0014 002B     		cmp	r3, #0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  323 003a 1B88     		ldrh	r3, [r3]
  324 003c 2B60     		str	r3, [r5]
  325 003e 07E0     		b	.L24
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 26
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 26
 
 
  326              	.L28:
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
 1091:Generated_Source\PSoC4/key_touch_Structure.c **** /*******************************************************************************
 1092:Generated_Source\PSoC4/key_touch_Structure.c **** * Function Name: key_touch_SetParam
 1093:Generated_Source\PSoC4/key_touch_Structure.c **** ****************************************************************************//**
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 27
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 27
 
 
 1094:Generated_Source\PSoC4/key_touch_Structure.c **** *
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  371              		.cfi_offset 14, -4
  372 0002 83B0     		sub	sp, sp, #12
  373              		.cfi_def_cfa_offset 24
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 28
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 28
 
 
  374 0004 0D1C     		mov	r5, r1
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  398 0020 1A88     		ldrh	r2, [r3]
  399 0022 0C4B     		ldr	r3, .L39
  400 0024 D318     		add	r3, r2, r3
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 29
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 29
 
 
 1171:Generated_Source\PSoC4/key_touch_Structure.c ****         
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
 1191:Generated_Source\PSoC4/key_touch_Structure.c ****         #if (key_touch_ENABLE == (key_touch_TST_WDGT_CRC_EN || key_touch_TST_GLOBAL_CRC_EN))
 1192:Generated_Source\PSoC4/key_touch_Structure.c ****             /* Update widget or global CRC if self-test is enabled and parameter affects it */
 1193:Generated_Source\PSoC4/key_touch_Structure.c ****             if (0u != pData.affectsCrc)
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 30
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 30
 
 
 1194:Generated_Source\PSoC4/key_touch_Structure.c ****             {
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
 1227:Generated_Source\PSoC4/key_touch_Structure.c **** *  (key_touch_WDGT_STATUS<X>_VALUE). This function does not process any 
 1228:Generated_Source\PSoC4/key_touch_Structure.c **** *  widget but extracts the processed results from the \ref group_structures.
 1229:Generated_Source\PSoC4/key_touch_Structure.c **** *
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 31
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 31
 
 
 1230:Generated_Source\PSoC4/key_touch_Structure.c **** * \return 
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  489 001c 00000000 		.word	key_touch_dsRam
  490              		.cfi_endproc
  491              	.LFE5:
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 32
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 32
 
 
  492              		.size	key_touch_IsAnyWidgetActive, .-key_touch_IsAnyWidgetActive
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  511 000a 9340     		lsl	r3, r3, r2
  512 000c 1A1C     		mov	r2, r3
  513 000e 4309     		lsr	r3, r0, #5
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 33
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 33
 
 
  514 0010 0433     		add	r3, r3, #4
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
 1304:Generated_Source\PSoC4/key_touch_Structure.c **** *
 1305:Generated_Source\PSoC4/key_touch_Structure.c **** * \param widgetId  
 1306:Generated_Source\PSoC4/key_touch_Structure.c **** *  Specify the ID number of the widget.
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 34
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 34
 
 
 1307:Generated_Source\PSoC4/key_touch_Structure.c **** *  A macro for the widget ID can be found in the key_touch Configuration header 
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  565 0016 0120     		mov	r0, #1
  566 0018 8840     		lsl	r0, r0, r1
  567 001a 1840     		and	r0, r3
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 35
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 35
 
 
  568              	.LVL65:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  617 000c 00000000 		.word	key_touch_ioList
  618 0010 24000000 		.word	key_touch_dsRam+36
  619 0014 FC000000 		.word	key_touch_dsRam+252
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 36
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 36
 
 
  620 0018 00000000 		.word	0
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  674 00b4 2E010000 		.word	key_touch_dsRam+302
  675 00b8 00000000 		.word	0
  676 00bc A8000000 		.word	key_touch_debounceButton5
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 37
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 37
 
 
  677 00c0 0100     		.short	1
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  731 015c 94000000 		.word	key_touch_debounceButton10
  732 0160 0100     		.short	1
  733 0162 0100     		.short	1
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 38
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 38
 
 
  734 0164 01       		.byte	1
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  788 01ba 20       		.byte	32
  789 01bb 04       		.byte	4
  790 01bc 00       		.byte	0
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 39
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 39
 
 
  791 01bd 00       		.space	1
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  845 0203 04       		.byte	4
  846 0204 00       		.byte	0
  847 0205 00       		.space	1
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 40
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 40
 
 
  848 0206 A000     		.short	160
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  902 024c 00       		.byte	0
  903 024d 00       		.space	1
  904 024e A000     		.short	160
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 41
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 41
 
 
  905 0250 0000     		.short	0
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  959 02d0 0C       		.byte	12
  960 02d1 03       		.byte	3
  961 02d2 09       		.byte	9
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 42
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 42
 
 
  962 02d3 00       		.space	1
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1016 036c 04020440 		.word	1074004484
  1017 0370 0000000F 		.word	251658240
  1018 0374 40000000 		.word	64
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 43
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 43
 
 
  1019 0378 18       		.byte	24
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1064      00000000 
  1064      00000000 
  1065              		.type	key_touch_noiseEnvlpButton6, %object
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 44
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 44
 
 
  1066              		.size	key_touch_noiseEnvlpButton6, 12
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1106 0098 00       		.space	1
  1107 0099 000000   		.space	3
  1108              		.type	key_touch_debounceButton8, %object
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 45
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 45
 
 
  1109              		.size	key_touch_debounceButton8, 1
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1163 0006 00000000 		.4byte	.Ldebug_abbrev0
  1164 000a 04       		.byte	0x4
  1165 000b 01       		.uleb128 0x1
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 46
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 46
 
 
  1166 000c 00000000 		.4byte	.LASF165
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1220 007c 02       		.byte	0x2
  1221 007d BA01     		.2byte	0x1ba
  1222 007f 3A000000 		.4byte	0x3a
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 47
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 47
 
 
  1223 0083 04       		.uleb128 0x4
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1277 00f7 07       		.uleb128 0x7
  1278 00f8 04       		.byte	0x4
  1279 00f9 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 48
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 48
 
 
  1280 00fd 09       		.uleb128 0x9
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1334 0166 01       		.byte	0x1
  1335 0167 05       		.byte	0x5
  1336 0168 4F       		.byte	0x4f
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 49
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 49
 
 
  1337 0169 92010000 		.4byte	0x192
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1391 01d5 6B000000 		.4byte	0x6b
  1392 01d9 05       		.byte	0x5
  1393 01da 0A       		.uleb128 0xa
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 50
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 50
 
 
  1394 01db B8020000 		.4byte	.LASF38
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1448 024b 04       		.uleb128 0x4
  1449 024c 92020000 		.4byte	.LASF47
  1450 0250 05       		.byte	0x5
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 51
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 51
 
 
  1451 0251 1301     		.2byte	0x113
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1505 02c7 7E       		.byte	0x7e
  1506 02c8 10       		.uleb128 0x10
  1507 02c9 10070000 		.4byte	.LASF56
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 52
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 52
 
 
  1508 02cd 05       		.byte	0x5
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1562 033f 7101     		.2byte	0x171
  1563 0341 D4000000 		.4byte	0xd4
  1564 0345 06       		.byte	0x6
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 53
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 53
 
 
  1565 0346 10       		.uleb128 0x10
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1619 03bc 14       		.byte	0x14
  1620 03bd 10       		.uleb128 0x10
  1621 03be E8060000 		.4byte	.LASF51
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 54
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 54
 
 
  1622 03c2 05       		.byte	0x5
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1676 0434 81030000 		.4byte	0x381
  1677 0438 43040000 		.4byte	0x443
  1678 043c 0F       		.uleb128 0xf
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 55
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 55
 
 
  1679 043d CB000000 		.4byte	0xcb
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1733 04b3 10       		.byte	0x10
  1734 04b4 10       		.uleb128 0x10
  1735 04b5 5D060000 		.4byte	.LASF75
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 56
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 56
 
 
  1736 04b9 05       		.byte	0x5
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1790 052f 83000000 		.4byte	0x83
  1791 0533 3E050000 		.4byte	0x53e
  1792 0537 0F       		.uleb128 0xf
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 57
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 57
 
 
  1793 0538 CB000000 		.4byte	0xcb
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1847 05ac 83000000 		.4byte	0x83
  1848 05b0 14       		.byte	0x14
  1849 05b1 10       		.uleb128 0x10
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 58
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 58
 
 
  1850 05b2 74030000 		.4byte	.LASF91
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1904 0627 0C       		.byte	0xc
  1905 0628 10       		.uleb128 0x10
  1906 0629 D2080000 		.4byte	.LASF99
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 59
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 59
 
 
  1907 062d 05       		.byte	0x5
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  1961 069c AE060000 		.4byte	0x6ae
  1962 06a0 10       		.uleb128 0x10
  1963 06a1 F6010000 		.4byte	.LASF106
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 60
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 60
 
 
  1964 06a5 05       		.byte	0x5
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2018 0718 01       		.byte	0x1
  2019 0719 B902     		.2byte	0x2b9
  2020 071b 6B000000 		.4byte	0x6b
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 61
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 61
 
 
  2021 071f 06       		.byte	0x6
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2075 079b 2F080000 		.4byte	0x82f
  2076 079f 19       		.uleb128 0x19
  2077 07a0 E4010000 		.4byte	.LASF117
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 62
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 62
 
 
  2078 07a4 01       		.byte	0x1
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2132 0819 01       		.uleb128 0x1
  2133 081a 52       		.byte	0x52
  2134 081b 02       		.uleb128 0x2
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 63
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 63
 
 
  2135 081c 08       		.byte	0x8
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2189 0889 0F04     		.2byte	0x40f
  2190 088b A4000000 		.4byte	0xa4
  2191 088f 89010000 		.4byte	.LLST9
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 64
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 64
 
 
  2192 0893 20       		.uleb128 0x20
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2246 0902 01       		.uleb128 0x1
  2247 0903 50       		.byte	0x50
  2248 0904 01       		.uleb128 0x1
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 65
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 65
 
 
  2249 0905 30       		.byte	0x30
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2303 0981 4F020000 		.4byte	.LLST13
  2304 0985 1F       		.uleb128 0x1f
  2305 0986 8C020000 		.4byte	.LASF115
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 66
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 66
 
 
  2306 098a 01       		.byte	0x1
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2360 09f4 00       		.byte	0
  2361 09f5 1D       		.uleb128 0x1d
  2362 09f6 4C000000 		.4byte	.LVL51
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 67
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 67
 
 
  2363 09fa 3A0D0000 		.4byte	0xd3a
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2417 0a73 760A0000 		.4byte	.LASF109
  2418 0a77 01       		.byte	0x1
  2419 0a78 FC04     		.2byte	0x4fc
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 68
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 68
 
 
  2420 0a7a 83000000 		.4byte	0x83
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2474 0afa B8000000 		.4byte	key_touch_debounceButton1
  2475 0afe 25       		.uleb128 0x25
  2476 0aff 5F090000 		.4byte	.LASF136
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 69
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 69
 
 
  2477 0b03 01       		.byte	0x1
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2531 0b75 25       		.uleb128 0x25
  2532 0b76 39050000 		.4byte	.LASF143
  2533 0b7a 01       		.byte	0x1
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 70
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 70
 
 
  2534 0b7b 52       		.byte	0x52
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2588 0bf0 01       		.byte	0x1
  2589 0bf1 5D       		.byte	0x5d
  2590 0bf2 A80B0000 		.4byte	0xba8
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 71
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 71
 
 
  2591 0bf6 05       		.uleb128 0x5
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2645 0c68 64       		.byte	0x64
  2646 0c69 A80B0000 		.4byte	0xba8
  2647 0c6d 05       		.uleb128 0x5
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 72
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 72
 
 
  2648 0c6e 03       		.byte	0x3
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2702 0ce8 00       		.byte	0
  2703 0ce9 27       		.uleb128 0x27
  2704 0cea 20070000 		.4byte	.LASF162
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 73
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 73
 
 
  2705 0cee 01       		.byte	0x1
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2759 000e 01       		.uleb128 0x1
  2760 000f 10       		.uleb128 0x10
  2761 0010 17       		.uleb128 0x17
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 74
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 74
 
 
  2762 0011 00       		.byte	0
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2816 0047 0B       		.uleb128 0xb
  2817 0048 0B       		.uleb128 0xb
  2818 0049 49       		.uleb128 0x49
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 75
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 75
 
 
  2819 004a 13       		.uleb128 0x13
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2873 0080 0B       		.uleb128 0xb
  2874 0081 0B       		.uleb128 0xb
  2875 0082 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 76
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 76
 
 
  2876 0083 0B       		.uleb128 0xb
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2930 00b9 3A       		.uleb128 0x3a
  2931 00ba 0B       		.uleb128 0xb
  2932 00bb 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 77
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 77
 
 
  2933 00bc 05       		.uleb128 0x5
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  2987 00f2 2E       		.uleb128 0x2e
  2988 00f3 01       		.byte	0x1
  2989 00f4 03       		.uleb128 0x3
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 78
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 78
 
 
  2990 00f5 0E       		.uleb128 0xe
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3044 012c 03       		.uleb128 0x3
  3045 012d 0E       		.uleb128 0xe
  3046 012e 3A       		.uleb128 0x3a
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 79
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 79
 
 
  3047 012f 0B       		.uleb128 0xb
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3101 016b 1D       		.uleb128 0x1d
  3102 016c 898201   		.uleb128 0x4109
  3103 016f 01       		.byte	0x1
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 80
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 80
 
 
  3104 0170 11       		.uleb128 0x11
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3158 01a7 0B       		.uleb128 0xb
  3159 01a8 3B       		.uleb128 0x3b
  3160 01a9 05       		.uleb128 0x5
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 81
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 81
 
 
  3161 01aa 01       		.uleb128 0x1
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3215 01e0 0B       		.uleb128 0xb
  3216 01e1 3B       		.uleb128 0x3b
  3217 01e2 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 82
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 82
 
 
  3218 01e3 49       		.uleb128 0x49
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3272 0219 19       		.uleb128 0x19
  3273 021a 01       		.uleb128 0x1
  3274 021b 13       		.uleb128 0x13
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 83
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 83
 
 
  3275 021c 00       		.byte	0
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3329 003c 50000000 		.4byte	.LVL5
  3330 0040 0200     		.2byte	0x2
  3331 0042 30       		.byte	0x30
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 84
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 84
 
 
  3332 0043 9F       		.byte	0x9f
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3386 00d6 0300     		.2byte	0x3
  3387 00d8 73       		.byte	0x73
  3388 00d9 7F       		.sleb128 -1
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 85
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 85
 
 
  3389 00da 9F       		.byte	0x9f
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3443 0167 51       		.byte	0x51
  3444 0168 08000000 		.4byte	.LVL29
  3445 016c 54000000 		.4byte	.LVL41
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 86
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 86
 
 
  3446 0170 0100     		.2byte	0x1
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3500 01f9 0100     		.2byte	0x1
  3501 01fb 51       		.byte	0x51
  3502 01fc 08000000 		.4byte	.LVL43
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 87
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 87
 
 
  3503 0200 30000000 		.4byte	.LVL47
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3557 0283 9F       		.byte	0x9f
  3558 0284 06000000 		.4byte	.LVL54
  3559 0288 20000000 		.4byte	.LFE5
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 88
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 88
 
 
  3560 028c 0100     		.2byte	0x1
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3614 0311 9F       		.byte	0x9f
  3615 0312 1A000000 		.4byte	.LVL60
  3616 0316 1C000000 		.4byte	.LVL61
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 89
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 89
 
 
  3617 031a 0100     		.2byte	0x1
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3671 039a 9F       		.byte	0x9f
  3672 039b 1C000000 		.4byte	.LVL65
  3673 039f 1E000000 		.4byte	.LVL66
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 90
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 90
 
 
  3674 03a3 0100     		.2byte	0x1
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3728 003c 00000000 		.4byte	0
  3729              		.section	.debug_line,"",%progbits
  3730              	.Ldebug_line0:
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 91
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 91
 
 
  3731 0000 D8010000 		.section	.debug_str,"MS",%progbits,1
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3750              	.LASF8:
  3751 010d 756E7369 		.ascii	"unsigned int\000"
  3751      676E6564 
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 92
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 92
 
 
  3751      20696E74 
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3772              	.LASF160:
  3773 01d4 6B65795F 		.ascii	"key_touch_dsRam\000"
  3773      746F7563 
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 93
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 93
 
 
  3773      685F6473 
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3801      746F7563 
  3801      685F4473 
  3801      496E6974 
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 94
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 94
 
 
  3801      69616C69 
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3825      536E7300 
  3826              	.LASF27:
  3827 0342 534D4152 		.ascii	"SMARTSENSE_CSD_NOISE_ENVELOPE_STRUCT\000"
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 95
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 95
 
 
  3827      5453454E 
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3851      436F6D70 
  3851      00
  3852              	.LASF86:
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 96
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 96
 
 
  3853 0425 70635074 		.ascii	"pcPtr\000"
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3873      626F756E 
  3873      63654275 
  3874              	.LASF141:
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 97
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 97
 
 
  3875 0505 6B65795F 		.ascii	"key_touch_debounceButton7\000"
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3898 05d2 6873696F 		.ascii	"hsiomPtr\000"
  3898      6D507472 
  3898      00
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 98
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 98
 
 
  3899              	.LASF128:
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3924      75726365 
  3924      00
  3925              	.LASF2:
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 99
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 99
 
 
  3926 0674 73686F72 		.ascii	"short int\000"
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3955              	.LASF56:
  3956 0710 62757474 		.ascii	"button8\000"
  3956      6F6E3800 
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 100
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 100
 
 
  3957              	.LASF57:
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3979              	.LASF158:
  3980 07d2 6B65795F 		.ascii	"key_touch_ramWidgetInit\000"
  3980      746F7563 
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 101
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 101
 
 
  3980      685F7261 
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  3999              	.LASF99:
  4000 08d2 70747232 		.ascii	"ptr2DebounceArr\000"
  4000      4465626F 
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 102
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 102
 
 
  4000      756E6365 
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  4026 0979 6B65795F 		.ascii	"key_touch_RAM_SNS_LIST_STRUCT\000"
  4026      746F7563 
  4026      685F5241 
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 103
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 103
 
 
  4026      4D5F534E 
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 1
  4053              	.LASF20:
  4054 0a2a 70617261 		.ascii	"param0\000"
  4054      6D3000
-ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccYlAAUP.s 			page 104
+ARM GAS  C:\Users\Administrator\AppData\Local\Temp\ccCs3Dc2.s 			page 104
 
 
  4055              	.LASF21:
