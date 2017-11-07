@@ -73,6 +73,17 @@
 #define WAKE_UP__PS CYREG_GPIO_PRT2_PS
 #define WAKE_UP__SHIFT 1u
 
+/* isr_wdt */
+#define isr_wdt__INTC_CLR_EN_REG CYREG_CM0P_ICER
+#define isr_wdt__INTC_CLR_PD_REG CYREG_CM0P_ICPR
+#define isr_wdt__INTC_MASK 0x40u
+#define isr_wdt__INTC_NUMBER 6u
+#define isr_wdt__INTC_PRIOR_MASK 0xC00000u
+#define isr_wdt__INTC_PRIOR_NUM 3u
+#define isr_wdt__INTC_PRIOR_REG CYREG_CM0P_IPR1
+#define isr_wdt__INTC_SET_EN_REG CYREG_CM0P_ISER
+#define isr_wdt__INTC_SET_PD_REG CYREG_CM0P_ISPR
+
 /* key_touch_Cmod */
 #define key_touch_Cmod__0__DR CYREG_GPIO_PRT4_DR
 #define key_touch_Cmod__0__DR_CLR CYREG_GPIO_PRT4_DR_CLR

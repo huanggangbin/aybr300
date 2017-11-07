@@ -1,29 +1,11 @@
 #include "LCD_driver.h"
 
-static uint8 lcd_ram_buffer[14];           //只用到前14个Byte
+uint8 lcd_ram_buffer[14];           //只用到前14个Byte
 uint8 ram_offset[COM_NUM][SEG_NUM];
 
 static void segment_set(uint8 com, uint8 seg, Switch value);
-static void ram_offset_init(void);
 
-void LCD_driver_init(void)
-{
-    ram_offset_init();
-    icon_set(ICON5, ON);//横线
-    icon_set(ICON6, ON);//温度设定
-    icon_set(ICON8, ON);//时间设定
-    digital_tube_set(TUBE1, VALUE_1);
-    digital_tube_set(TUBE2, VALUE_2);
-    digital_tube_set(TUBE3, VALUE_0);
-    digital_tube_set(TUBE4, VALUE_0);
-    digital_tube_set(TUBE5, VALUE_NULL);
-    digital_tube_set(TUBE6, VALUE_NULL);
-    digital_tube_set(TUBE7, VALUE_NULL);
-    digital_tube_set(TUBE8, VALUE_NULL);
-    LCD_GLASS_Refresh(lcd_ram_buffer, 14);
-}
-
-static void ram_offset_init(void)
+void ram_offset_init(void)
 {
     uint8 i, j, k = 0;
 
@@ -97,10 +79,6 @@ void digital_tube_set(Digital_tube_index index, Tube_value value)
     }
 }
 
-void LCD_driver_refresh(void)
-{
-    LCD_GLASS_Refresh(lcd_ram_buffer, 14);
-}
 
 static void segment_set(uint8 com, uint8 seg, Switch value) 
 {

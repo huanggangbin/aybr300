@@ -38,6 +38,7 @@
 #include "SIMPLE_CLOCK_aliases.h"
 #include "SIMPLE_DATA.h"
 #include "SIMPLE_DATA_aliases.h"
+#include "isr_wdt.h"
 #include "key_touch_ISR.h"
 #include "CyFlash.h"
 #include "CyLib.h"

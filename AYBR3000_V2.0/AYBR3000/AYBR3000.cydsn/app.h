@@ -17,8 +17,8 @@
 #define APP_KEY_HANDLER_DEFINE(x, key_value)  \
     void app_key_##x##_handler(void)    \
     {   \
-        app_send_buffer[0] = key_value;    \
-        simple_protocol_send(app_send_buffer, 1);   \
+        app_send_buffer[3] = key_value;    \
+        simple_protocol_send(app_send_buffer, 3);   \
     }
 
 #define APP_KEY_HANDlER(x)  app_key_##x##_handler

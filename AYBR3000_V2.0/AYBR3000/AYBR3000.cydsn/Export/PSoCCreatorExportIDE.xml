@@ -135,6 +135,8 @@
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SIMPLE_DATA.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SIMPLE_DATA_aliases.h</File>
           <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\SIMPLE_DATA_PM.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\isr_wdt.c</File>
+          <File BuildType="BUILD" Toolchain="">Generated_Source\PSoC4\isr_wdt.h</File>
         </Files>
       </Folder>
       <Folder BuildType="STRICT" Path="D:\local_svn\AYBR3000\AYBR3000_V2.0\AYBR3000\AYBR3000.cydsn\Export\ARM_GCC_Generic\CapSense_P4_v3_10">
