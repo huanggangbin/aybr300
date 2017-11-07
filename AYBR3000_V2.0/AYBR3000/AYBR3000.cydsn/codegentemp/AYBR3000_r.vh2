@@ -1,5 +1,5 @@
 -- Project:   AYBR3000
--- Generated: 10/29/2017 20:40:43
+-- Generated: 10/26/2017 19:24:39
 -- PSoC Creator  4.0
 
 ENTITY AYBR3000 IS
@@ -33,6 +33,7 @@ ARCHITECTURE __DEFAULT__ OF AYBR3000 IS
     SIGNAL SIMPLE_CLOCK(0)__PA : bit;
     SIGNAL SIMPLE_DATA(0)__PA : bit;
     SIGNAL WAKE_UP(0)__PA : bit;
+    SIGNAL WDT_INT_OUT : bit;
     SIGNAL \\\key_touch:Cmod(0)\\__PA\ : bit;
     SIGNAL \key_touch:Net_120\ : bit;
     SIGNAL \key_touch:Net_1423_ff2\ : bit;
@@ -104,6 +105,8 @@ ARCHITECTURE __DEFAULT__ OF AYBR3000 IS
     ATTRIBUTE Location OF \key_touch:IDACComp\ : LABEL IS "F(CSIDAC7,1)";
     ATTRIBUTE Location OF \Timer_1:cy_m0s8_tcpwm_1\ : LABEL IS "F(TCPWM,0)";
     ATTRIBUTE Location OF time_1ms_ISR : LABEL IS "[IntrContainer=(0)][IntrId=(11)]";
+    ATTRIBUTE Location OF isr_wdt : LABEL IS "[IntrContainer=(0)][IntrId=(6)]";
+    ATTRIBUTE Location OF WDT : LABEL IS "F(WDT,0)";
     COMPONENT interrupt
         PORT (
             interrupt : IN std_ulogic;
@@ -277,6 +280,10 @@ ARCHITECTURE __DEFAULT__ OF AYBR3000 IS
             line_out : OUT std_ulogic;
             line_out_compl : OUT std_ulogic;
             interrupt : OUT std_ulogic);
+    END COMPONENT;
+    COMPONENT m0s8wdtcell
+        PORT (
+            wdt_int : OUT std_ulogic);
     END COMPONENT;
     COMPONENT p4csdcell
         PORT (
@@ -1075,5 +1082,17 @@ BEGIN
         PORT MAP(
             interrupt => Net_25,
             clock => ClockBlock_HFCLK);
+
+    isr_wdt:interrupt
+        GENERIC MAP(
+            int_type => "10",
+            is_nmi => 0)
+        PORT MAP(
+            interrupt => WDT_INT_OUT,
+            clock => ClockBlock_HFCLK);
+
+    WDT:m0s8wdtcell
+        PORT MAP(
+            wdt_int => WDT_INT_OUT);
 
 END __DEFAULT__;

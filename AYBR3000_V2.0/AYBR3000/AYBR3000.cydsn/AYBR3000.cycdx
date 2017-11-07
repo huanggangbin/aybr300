@@ -2,23 +2,11 @@
 <blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
   <block name="SIMPLE_DATA" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="SIMPLE_CLOCK" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="isr_wdt" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="cy_lfclk" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="WAKE_UP" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="Timer_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
-    <block name="VMux_count" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="VMux_reload" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="VMux_start" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="VMux_stop" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="VMux_capture" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="VMux_clock" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <block name="cy_m0s8_tcpwm_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-    <register name="COUNTER" address="0x40060108" bitWidth="32" desc="Current counter value" hidden="false" />
-    <register name="CC" address="0x4006010C" bitWidth="32" desc="Compare / capture value" hidden="false" />
-    <register name="CC_BUF" address="0x40060110" bitWidth="32" desc="Compare / capture buffer value" hidden="false" />
-    <register name="PERIOD" address="0x40060114" bitWidth="32" desc="Period value" hidden="false" />
-    <register name="PERIOD_BUF" address="0x40060118" bitWidth="32" desc="Period buffer value" hidden="false" />
-  </block>
+  <block name="GlobalSignal_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="key_touch" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
     <block name="ZeroTerminal_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="ZeroTerminal_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
@@ -385,6 +373,20 @@
       <field name="AZ0_SKIP" from="8" to="8" access="RW" resetVal="" desc="When set the AutoZero_0 state will be skipped" hidden="false" />
       <field name="AZ1_SKIP" from="9" to="9" access="RW" resetVal="" desc="When set the AutoZero_1 state will be skipped" hidden="false" />
     </register>
+  </block>
+  <block name="Timer_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
+    <block name="VMux_count" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="VMux_reload" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="VMux_start" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="VMux_stop" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="VMux_capture" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="VMux_clock" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <block name="cy_m0s8_tcpwm_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+    <register name="COUNTER" address="0x40060108" bitWidth="32" desc="Current counter value" hidden="false" />
+    <register name="CC" address="0x4006010C" bitWidth="32" desc="Compare / capture value" hidden="false" />
+    <register name="CC_BUF" address="0x40060110" bitWidth="32" desc="Compare / capture buffer value" hidden="false" />
+    <register name="PERIOD" address="0x40060114" bitWidth="32" desc="Period value" hidden="false" />
+    <register name="PERIOD_BUF" address="0x40060118" bitWidth="32" desc="Period buffer value" hidden="false" />
   </block>
   <block name="Clock_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="time_1ms_ISR" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
