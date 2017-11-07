@@ -73,17 +73,6 @@
 .set WAKE_UP__PS, CYREG_GPIO_PRT2_PS
 .set WAKE_UP__SHIFT, 1
 
-/* isr_wdt */
-.set isr_wdt__INTC_CLR_EN_REG, CYREG_CM0P_ICER
-.set isr_wdt__INTC_CLR_PD_REG, CYREG_CM0P_ICPR
-.set isr_wdt__INTC_MASK, 0x40
-.set isr_wdt__INTC_NUMBER, 6
-.set isr_wdt__INTC_PRIOR_MASK, 0xC00000
-.set isr_wdt__INTC_PRIOR_NUM, 3
-.set isr_wdt__INTC_PRIOR_REG, CYREG_CM0P_IPR1
-.set isr_wdt__INTC_SET_EN_REG, CYREG_CM0P_ISER
-.set isr_wdt__INTC_SET_PD_REG, CYREG_CM0P_ISPR
-
 /* key_touch_Cmod */
 .set key_touch_Cmod__0__DR, CYREG_GPIO_PRT4_DR
 .set key_touch_Cmod__0__DR_CLR, CYREG_GPIO_PRT4_DR_CLR

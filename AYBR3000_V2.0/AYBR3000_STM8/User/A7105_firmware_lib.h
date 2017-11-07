@@ -92,26 +92,27 @@ typedef enum
 #define A7105_CLEAR_WDT()                  nop()
 //用于指示芯片射频packet收发完成,(WTR一直是输入脚)
 
-//#define GIO1_IN()                       ((GPIOB->IDR)&GPIO_Pin_6)
-#define GIO2_IN()                       ((GPIOB->IDR)&GPIO_Pin_6)
-#define RF_WTR()                        GIO2_IN()
-
+#define GIO1_IN()                       ((GPIOD->IDR)&GPIO_Pin_7)
+//#define GIO2_IN()                       ((GPIOD->IDR)&GPIO_Pin_6)
+#define RF_WTR()                        GIO1_IN()
+#define GIOx_interrupt_on()             GPIO_Init(GPIOD, GPIO_Pin_7, GPIO_Mode_In_PU_IT)
+#define GIOx_interrupt_off()            GPIO_Init(GPIOD, GPIO_Pin_7, GPIO_Mode_In_PU_No_IT)
 
 //数据起止信号,(一直是发送脚)
-#define SCS_PIN_HIGH()                 (GPIOB->ODR |= GPIO_Pin_4)
-#define SCS_PIN_LOW()                  (GPIOB->ODR &= ~GPIO_Pin_4)
+#define SCS_PIN_HIGH()                 (GPIOA->ODR |= GPIO_Pin_3)
+#define SCS_PIN_LOW()                  (GPIOA->ODR &= ~GPIO_Pin_3)
 //数据同步时钟,(一直是发送脚)
-#define SCK_PIN_HIGH()                 (GPIOB->ODR |= GPIO_Pin_5)
-#define SCK_PIN_LOW()                  (GPIOB->ODR &= ~GPIO_Pin_5)
+#define SCK_PIN_HIGH()                 (GPIOC->ODR |= GPIO_Pin_7)
+#define SCK_PIN_LOW()                  (GPIOC->ODR &= ~GPIO_Pin_7)
 
 //数据发送引脚
-#define SDIO_DDR_OUT()              (GPIO_Init(GPIOB, GPIO_Pin_7, GPIO_Mode_Out_PP_High_Fast))
-#define SDIO_PIN_HIGH()             (GPIOB->ODR |= GPIO_Pin_7)
-#define SDIO_PIN_LOW()              (GPIOB->ODR &= ~GPIO_Pin_7)
+#define SDIO_DDR_OUT()              (GPIO_Init(GPIOC, GPIO_Pin_2, GPIO_Mode_Out_PP_High_Fast))
+#define SDIO_PIN_HIGH()             (GPIOC->ODR |= GPIO_Pin_2)
+#define SDIO_PIN_LOW()              (GPIOC->ODR &= ~GPIO_Pin_2)
 
 //数据接收引脚
-#define SDIO_DDR_IN()               (GPIO_Init(GPIOB, GPIO_Pin_7, GPIO_Mode_In_PU_No_IT))
-#define SDIO_IN()                   ((GPIOB->IDR)&GPIO_Pin_7)
+#define SDIO_DDR_IN()               (GPIO_Init(GPIOC, GPIO_Pin_2, GPIO_Mode_In_PU_No_IT))
+#define SDIO_IN()                   ((GPIOC->IDR)&GPIO_Pin_2)
     
 // A7105收发,软件buffer,长度设定
 
@@ -125,12 +126,11 @@ extern void A7105_WriteReg(A7105_REG addr,    uint8 dataByte);
 extern void StrobeCmd(A7105_CMD cmd);
 extern void A7105_Reset(void);
 extern void A7105_WriteID(void);
-//void A7105_ReadID(void);
 extern void WriteFIFO(uint8 length, uint8 pbuf[]);
 extern void ReadFIFO(uint8 length, uint8 pbuf[]);
 
 extern uint8 A7105_read_wtr(void);
 extern void A7105_update_wtr(bool value);
-
+extern void A7105_GIOx_interrupt_switch(Switch s);
 #endif
 

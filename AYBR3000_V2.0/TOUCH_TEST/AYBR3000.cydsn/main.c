@@ -139,7 +139,7 @@ int main(void)
     /* Place your initialization/startup code here (e.g. MyInst_Start()) */
     
     CyGlobalIntEnable; /* Enable global interrupts. */
-    A7105_init();
+    //A7105_init();
     key_init();
     GIO1_ISR_Disable();         //端口默认电平是高电平，需要忽略这个下降沿
     GIO1_Write(0);

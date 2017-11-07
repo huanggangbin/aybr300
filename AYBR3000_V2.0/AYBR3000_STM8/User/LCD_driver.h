@@ -83,8 +83,9 @@ typedef struct
 extern uint8 lcd_ram_buffer[14];
 extern uint8 ram_offset[COM_NUM][SEG_NUM];
 
-extern void ram_offset_init(void);
+extern void LCD_driver_init(void);
 extern void icon_set(ICON_index index, Switch value);
 extern void digital_tube_set(Digital_tube_index index, Tube_value value);
+extern void LCD_driver_refresh(void);
 #endif
 

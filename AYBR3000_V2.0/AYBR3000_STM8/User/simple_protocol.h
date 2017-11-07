@@ -3,7 +3,7 @@
 #include "stm8l15x.h"
 #include "timing.h"
 #include "types.h"
-#define PACKET_MAX_LEN 100
+#define PACKET_MAX_LEN 10
 #define PACKET_HEADER_LEN 2
 
 typedef struct

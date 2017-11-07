@@ -374,11 +374,21 @@ void A7105_update_wtr(bool value)
 {
     A7105_wtr_status = value;
 }
+
+/************************************************************************
+**   GIO1引脚下降沿中断开关
+************************************************************************/
+void A7105_GIOx_interrupt_switch(Switch s)
+{
+    if (s == ON)
+        GIOx_interrupt_on();
+    else
+        GIOx_interrupt_off();
+}
+
 /************************************************************************
 **    WaitBit_n_clear()
 ************************************************************************/
-
-
 void Wait_Bit_n_clear(uint8 reg, uint8 nbit)
 {
     while(A7105_ReadReg(reg) & nbit) { 
