@@ -152,3 +152,4 @@ void GPIO_Configuration(void)
     EXTI_SetPinSensitivity(EXTI_Pin_7, EXTI_Trigger_Falling);           //GIO1脚的下降沿中断
     EXTI_SetPinSensitivity(EXTI_Pin_1, EXTI_Trigger_Rising);            //CLOCK脚的上升沿中断
 }
+

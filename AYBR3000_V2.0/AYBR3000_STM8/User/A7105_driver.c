@@ -24,6 +24,7 @@ void A7105_init(void)
     SCS_PIN_HIGH();
     SCK_PIN_LOW();
     SDIO_PIN_HIGH();
+    A7105_GIOx_interrupt_switch(OFF);
    
     A7105_Reset();        //reset A7105 RF chip
     A7105_WriteID();    //write ID code
@@ -51,7 +52,7 @@ void send_data_by_A7105(uint8 buffer_length, uint8 send_buffer[])
         StrobeCmd(CMD_TFR);
         WriteFIFO(buffer_length, send_buffer); 
         
-        //StrobeCmd(CMD_STBY);   //若当前是RX状态,是无法直接切换到TX状态的
+        StrobeCmd(CMD_STBY);   //若当前是RX状态,是无法直接切换到TX状态的
         StrobeCmd(CMD_TX);
         while(RF_WTR());// 浮空输入脚,A7105发送开始拉高,发送结束拉低
         //发送完成会自动回到之前的状态StandBy
@@ -68,8 +69,10 @@ bool receive_data_by_A7105(uint8 buffer_length, uint8 receive_buffer[])
     if (buffer_length_ok(buffer_length) && receive_buffer != NULL)
     {
         StrobeCmd(CMD_RX);
+        A7105_GIOx_interrupt_switch(ON);
         if (A7105_read_wtr())          // 浮空输入脚,A7105接收开始拉高接收结束拉低
         {
+            A7105_GIOx_interrupt_switch(OFF);
             A7105_update_wtr(FALSE);
             if (CRC_check_ok())
             {

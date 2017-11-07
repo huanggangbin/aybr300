@@ -37,7 +37,7 @@ int main(void)
     task_add(simple_protocol_process, 1);
     for(;;)
     {
-        CySysWdtIsr();   //feed dog
+        //CySysWdtIsr();   //feed dog
         /* Do this only when a scan is done */
         if(key_touch_NOT_BUSY == key_touch_IsBusy()) 
         {

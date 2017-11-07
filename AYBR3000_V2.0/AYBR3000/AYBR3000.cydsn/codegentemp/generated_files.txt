@@ -52,8 +52,6 @@
   <file name="D:\local_svn\AYBR3000\AYBR3000_V2.0\AYBR3000\AYBR3000.cydsn\codegentemp\SIMPLE_DATA.h" value="HEADER;;;;;SIMPLE_DATA" />
   <file name="D:\local_svn\AYBR3000\AYBR3000_V2.0\AYBR3000\AYBR3000.cydsn\codegentemp\SIMPLE_DATA_aliases.h" value="HEADER;;;;;SIMPLE_DATA" />
   <file name="D:\local_svn\AYBR3000\AYBR3000_V2.0\AYBR3000\AYBR3000.cydsn\codegentemp\SIMPLE_DATA_PM.c" value="SOURCE_C;CortexM0p;;;;SIMPLE_DATA" />
-  <file name="D:\local_svn\AYBR3000\AYBR3000_V2.0\AYBR3000\AYBR3000.cydsn\codegentemp\isr_wdt.c" value="SOURCE_C;CortexM0p;;;;isr_wdt" />
-  <file name="D:\local_svn\AYBR3000\AYBR3000_V2.0\AYBR3000\AYBR3000.cydsn\codegentemp\isr_wdt.h" value="HEADER;;;;;isr_wdt" />
   <file name="D:\local_svn\AYBR3000\AYBR3000_V2.0\AYBR3000\AYBR3000.cydsn\codegentemp\key_touch_ISR.c" value="SOURCE_C;CortexM0p;;;;key_touch_ISR" />
   <file name="D:\local_svn\AYBR3000\AYBR3000_V2.0\AYBR3000\AYBR3000.cydsn\codegentemp\key_touch_ISR.h" value="HEADER;;;;;key_touch_ISR" />
   <file name="D:\local_svn\AYBR3000\AYBR3000_V2.0\AYBR3000\AYBR3000.cydsn\codegentemp\cm0plusgcc.ld" value="LINKER_SCRIPT;;;b98f980c-3bd1-4fc7-a887-c56a20a46fdd;;cy_boot" />

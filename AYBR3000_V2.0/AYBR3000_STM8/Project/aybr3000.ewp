@@ -1731,12 +1731,6 @@
             <name>$PROJ_DIR$\..\User\main.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\User\main_control.c</name>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\User\main_control.h</name>
-        </file>
-        <file>
             <name>$PROJ_DIR$\..\User\maindef.h</name>
         </file>
         <file>

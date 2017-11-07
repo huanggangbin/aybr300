@@ -2,7 +2,7 @@
 --	Conversion of AYBR3000.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Thu Oct 26 19:24:39 2017
+--	Sun Oct 29 20:40:42 2017
 --
 
 USE cypress.cypress.all;
@@ -120,7 +120,6 @@ TERMINAL \key_touch:tmpSIOVREF__Cmod_net_0\ : bit;
 SIGNAL \key_touch:tmpINTERRUPT_0__Cmod_net_0\ : bit;
 SIGNAL \key_touch:Net_147\ : bit;
 SIGNAL \key_touch:Net_146\ : bit;
-SIGNAL Net_129 : bit;
 SIGNAL \Timer_1:Net_81\ : bit;
 SIGNAL \Timer_1:Net_75\ : bit;
 SIGNAL \Timer_1:Net_69\ : bit;
@@ -388,9 +387,6 @@ one <=  ('1') ;
 	PORT MAP(noconnect=>\key_touch:Net_150\);
 \key_touch:cy_analog_noconnect_2\:cy_analog_noconnect_v1_0
 	PORT MAP(noconnect=>\key_touch:Net_324\);
-GlobalSignal_1:cy_gsref_v1_0
-	GENERIC MAP(guid=>"1563FAA8-0748-4a1c-9785-CED309984BE3")
-	PORT MAP(sig_out=>Net_129);
 \Timer_1:cy_m0s8_tcpwm_1\:cy_m0s8_tcpwm_v1_0
 	GENERIC MAP(cy_registers=>"")
 	PORT MAP(clock=>Net_35,
@@ -629,9 +625,5 @@ SIMPLE_DATA:cy_psoc3_pins_v1_10
 		out_clock_en=>one,
 		out_reset=>zero,
 		interrupt=>tmpINTERRUPT_0__SIMPLE_DATA_net_0);
-isr_wdt:cy_isr_v1_0
-	GENERIC MAP(int_type=>"10",
-		is_nmi=>'0')
-	PORT MAP(int_signal=>Net_129);
 
 END R_T_L;

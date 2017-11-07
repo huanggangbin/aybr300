@@ -1,6 +1,6 @@
 // ======================================================================
 // AYBR3000.v generated from TopDesign.cysch
-// 10/26/2017 at 19:24
+// 10/29/2017 at 20:40
 // This file is auto generated. ANY EDITS YOU MAKE MAY BE LOST WHEN THIS FILE IS REGENERATED!!!
 // ======================================================================
 
@@ -551,13 +551,6 @@ module top ;
 
     CapSense_P4_v3_10_0 key_touch ();
 
-
-	cy_gsref_v1_0
-		#(.guid("1563FAA8-0748-4a1c-9785-CED309984BE3"))
-		GlobalSignal_1
-		 (.sig_out(Net_129));
-
-
     TCPWM_P4_v2_10_1 Timer_1 (
         .stop(1'b0),
         .reload(1'b0),
@@ -815,13 +808,6 @@ module top ;
 		  .out_reset({1'b0}));
 
 	assign tmpOE__SIMPLE_DATA_net = (`CYDEV_CHIP_MEMBER_USED == `CYDEV_CHIP_MEMBER_3A && `CYDEV_CHIP_REVISION_USED < `CYDEV_CHIP_REVISION_3A_ES3) ? ~{1'b1} : {1'b1};
-
-
-	cy_isr_v1_0
-		#(.int_type(2'b10))
-		isr_wdt
-		 (.int_signal(Net_129));
-
 
 
 

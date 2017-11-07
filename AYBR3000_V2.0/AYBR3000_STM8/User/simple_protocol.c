@@ -1,18 +1,19 @@
 #include "simple_protocol.h"
 #define simple_protocol_get_pin_data(level) 
-#define PACKET_MAX_LEN 100
-#define PACKET_HEADER_LEN 2
 
 static inline bool receive_byte(uint8 *data);
 
 static Simple_protocol_state receive_state;
 static Timing_type header_time;
-
 u8 receive_buffer[24] = {0};
 
 static u8 count = 0;
 static u8 check_sum = 0;
 static bool data_received_flag = FALSE;
+
+static Timing_type idle_time;
+static bool idle_flag = TRUE;
+
 typedef enum
 {
     BIT0 = 1<<0,
@@ -40,11 +41,21 @@ void receive_deal(void)
                     pbuf->data[i] = 0;
                 pbuf->header = 0;
                 pbuf->length = 0;
+                count = 0;
             }
-            receive_state.state = CLOCK_HEADER;
-            timing_set_counts(&header_time, 8);
+            if (timing_count_end(&header_time))
+            {
+                idle_flag = TRUE;
+            }
+            
+            if (idle_flag)
+            {
+                idle_flag = FALSE;
+                receive_state.state = CLOCK_HEADER;
+                timing_set_counts(&header_time, 8);
+            }   
             break;
-        case CLOCK_HEADER: 
+        case CLOCK_HEADER:
             if (timing_count_end(&header_time))
             {
                 receive_state.state = FRAME_HEADER;
@@ -54,6 +65,7 @@ void receive_deal(void)
             {
                 //时钟引脚的5ms低电平判断失败
                 receive_state.state = CLOCK_IDLE;
+                timing_set_counts(&idle_time, 3);
             }
             break;
         case FRAME_HEADER: 
@@ -67,13 +79,14 @@ void receive_deal(void)
                 {
                     //数据头接收错误
                     receive_state.state = CLOCK_IDLE;
+                    timing_set_counts(&idle_time, 3);
                 }
             }
             break;
         case FRAME_LENGTH: 
             if (receive_byte(&pbuf->length))          //这条语句会执行8次，每次接收一个bit的数据
             {
-                if (pbuf->length > 10)
+                if (pbuf->length > 2 && pbuf->length < 5)
                 {
                     receive_state.state = FRAME_DATA;
                 }
@@ -81,32 +94,37 @@ void receive_deal(void)
                 {
                     //数据长度验证错误
                     receive_state.state = CLOCK_IDLE;
+                    timing_set_counts(&idle_time, 3);
                 }
-            }break;
+            }
+            break;
         case FRAME_DATA: 
-            if (receive_byte(&pbuf->data[count]))          //这条语句会执行8次，每次接收一个bit的数据
+            if (receive_byte(&pbuf->data[count]))       //这条语句会执行8次，每次接收一个bit的数据
                     count++;
 
-            if (!(count < pbuf->length - 2))       //data的长度是总长度减2
+            if (count == pbuf->length - 2)       //data的长度是总长度减2
             {
                 receive_state.state = CHECKSUM;
                 count = 0;
-                
+
                 //直接计算check_sum
                 for (i = 0; i < pbuf->length - 1; i++)
-                check_sum += receive_buffer[i];
-            
+                    check_sum += receive_buffer[i];
+
                 if (check_sum == receive_buffer[pbuf->length - 1])
                     data_received_flag = TRUE;
                 else
                     data_received_flag = FALSE;
-                data_received_flag = TRUE;
+
+                check_sum = 0;
                 receive_state.state = CLOCK_IDLE;
+                timing_set_counts(&idle_time, 3);
             }
             break;
-            
+
         default : 
             receive_state.state = CLOCK_IDLE;
+            timing_set_counts(&idle_time, 3);
             break;
     }
 }

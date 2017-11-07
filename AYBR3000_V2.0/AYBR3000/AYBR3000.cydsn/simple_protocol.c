@@ -88,27 +88,30 @@ void simple_protocol_process(void)
             }
             break;
     }
-}
+} 
 
 Bool simple_protocol_send(uint8 *buffer, uint8 len)
 {
     Simple_protocol_format *pbuf = (Simple_protocol_format *)send_buffer;
-    uint8 i;
+    uint8 i, check_sum = 0;
     
     if (send_state.state == IDLE)
     {
         pbuf->header = 0x5a;
-        pbuf->length = len - 2;
-        for (i = 0; i < pbuf->length; i++)
-            pbuf->buf[i] = buffer[i+2];
+        pbuf->length = len + 3;
+        for (i = 0; i < pbuf->length - PACKET_HEADER_LEN - 1; i++)
+            pbuf->buf[i] = buffer[i];
+        
+        for (i = 0; i < pbuf->length - 1; i++)
+            check_sum += send_buffer[i];
+
+        send_buffer[pbuf->length - 1] = check_sum;
         flag_send = TRUE;
         return TRUE;
     }
     else
         return FALSE;
 }
-
-
 
 static inline void send_byte(uint8 data)
 {
@@ -120,13 +123,12 @@ static inline void send_byte(uint8 data)
             simple_protocol_set_pin_data(LEVEL_HIGH);
         else
             simple_protocol_set_pin_data(LEVEL_LOW);
-
+        delay_50_us();
         simple_protocol_set_pin_clock(LEVEL_HIGH);
         delay_50_us();
-        delay_50_us();
         temp >>= 1u;
-        simple_protocol_set_pin_clock(LEVEL_LOW);
         delay_50_us();
+        simple_protocol_set_pin_clock(LEVEL_LOW);
         delay_50_us();
     }
 }
@@ -137,4 +139,4 @@ static inline void delay_50_us(void)
     
     for (i = 0; i < 100; i++)
         asm("nop");
-}   
+}

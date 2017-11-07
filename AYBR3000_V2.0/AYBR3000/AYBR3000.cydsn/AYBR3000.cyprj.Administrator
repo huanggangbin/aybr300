@@ -14,200 +14,208 @@
 </dependency_info>
 <dependency_info name="c9323d49-d323-40b8-9b59-cc008d68a989@Debug@CortexM0p" xml_contents_version="2">
 <CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021 type_name="CyDesigner.Common.Base.CyFileDeps" version="1">
-<file name=".\CortexM0p\ARM_GCC_493\Debug\Clock_1.o">
-<dep name=".\Generated_Source\PSoC4\Clock_1.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\key.o">
 <dep name=".\Generated_Source\PSoC4\Clock_1.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\Clock_1.c" />
-<file name=".\Generated_Source\PSoC4\Clock_1.h" />
-<file name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<file name=".\Generated_Source\PSoC4\cyfitter.h" />
-<file name=".\Generated_Source\PSoC4\cytypes.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\Cm0plusStart.o">
-<dep name=".\Generated_Source\PSoC4\Cm0plusStart.c" />
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\cyapicallbacks.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\Cm0plusStart.c" />
-<file name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<file name=".\Generated_Source\PSoC4\CyLib.h" />
-<file name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<file name=".\cyapicallbacks.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\CyFlash.o">
-<dep name=".\Generated_Source\PSoC4\CyFlash.c" />
 <dep name=".\Generated_Source\PSoC4\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\CyFlash.c" />
-<file name=".\Generated_Source\PSoC4\CyFlash.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\CyLFClk.o">
-<dep name=".\Generated_Source\PSoC4\CyLFClk.c" />
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\CyLFClk.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\CyLib.o">
-<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.c" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\CyLib.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_CLOCK.o">
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.c" />
 <dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
 <dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.c" />
-<file name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
-<file name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
-<file name=".\Generated_Source\PSoC4\cypins.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_CLOCK_PM.o">
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_PM.c" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_PM.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_DATA.o">
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.c" />
 <dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
 <dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\SIMPLE_DATA.c" />
-<file name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
-<file name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_DATA_PM.o">
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_PM.c" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\SIMPLE_DATA_PM.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\Timer_1.o">
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\Timer_1.c" />
 <dep name=".\Generated_Source\PSoC4\Timer_1.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\Timer_1.c" />
-<file name=".\Generated_Source\PSoC4\Timer_1.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\Timer_1_PM.o">
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\Timer_1.h" />
-<dep name=".\Generated_Source\PSoC4\Timer_1_PM.c" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\Timer_1_PM.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\WAKE_UP.o">
-<dep name=".\Generated_Source\PSoC4\WAKE_UP.c" />
 <dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
 <dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\WAKE_UP.c" />
-<file name=".\Generated_Source\PSoC4\WAKE_UP.h" />
-<file name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\WAKE_UP_PM.o">
-<dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
-<dep name=".\Generated_Source\PSoC4\WAKE_UP_PM.c" />
-<dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\WAKE_UP_PM.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\cyPm.o">
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\cyPm.c" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0plus.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0plus_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
 <dep name=".\Generated_Source\PSoC4\cyPm.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Configuration.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Control.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Filter.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Processing.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_RegisterMap.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Sensing.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_SensingCSD_LL.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_SmartSense_LL.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
+<dep name=".\Generated_Source\PSoC4\project.h" />
+<dep name=".\Generated_Source\PSoC4\time_1ms_ISR.h" />
+<dep name=".\key.c" />
+<dep name=".\key.h" />
+<dep name=".\key_config.h" />
+<dep name=".\types.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Clock_1.h" />
+<file name=".\Generated_Source\PSoC4\CyFlash.h" />
+<file name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<file name=".\Generated_Source\PSoC4\CyLib.h" />
+<file name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
+<file name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
+<file name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
+<file name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
+<file name=".\Generated_Source\PSoC4\Timer_1.h" />
+<file name=".\Generated_Source\PSoC4\WAKE_UP.h" />
+<file name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
+<file name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<file name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<file name=".\Generated_Source\PSoC4\core_cm0plus.h" />
+<file name=".\Generated_Source\PSoC4\core_cm0plus_psoc4.h" />
+<file name=".\Generated_Source\PSoC4\core_cmFunc.h" />
+<file name=".\Generated_Source\PSoC4\core_cmInstr.h" />
+<file name=".\Generated_Source\PSoC4\cyPm.h" />
+<file name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<file name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
+<file name=".\Generated_Source\PSoC4\cyfitter.h" />
+<file name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<file name=".\Generated_Source\PSoC4\cypins.h" />
+<file name=".\Generated_Source\PSoC4\cytypes.h" />
+<file name=".\Generated_Source\PSoC4\key_touch.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_Configuration.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_Control.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_Filter.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_Processing.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_RegisterMap.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_Sensing.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_SensingCSD_LL.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_SmartSense_LL.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
+<file name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
+<file name=".\Generated_Source\PSoC4\project.h" />
+<file name=".\Generated_Source\PSoC4\time_1ms_ISR.h" />
+<file name=".\key.c" />
+<file name=".\key.h" />
+<file name=".\key_config.h" />
+<file name=".\types.h" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\simple_protocol.o">
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
 <dep name=".\Generated_Source\PSoC4\cyfitter.h" />
 <dep name=".\Generated_Source\PSoC4\cypins.h" />
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\simple_protocol.c" />
+<dep name=".\simple_protocol.h" />
+<dep name=".\timing.h" />
+<dep name=".\types.h" />
 </file>
-<file name=".\Generated_Source\PSoC4\cyPm.c" />
-<file name=".\Generated_Source\PSoC4\cyPm.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\cyfitter_cfg.o">
+<file name=".\simple_protocol.c" />
+<file name=".\simple_protocol.h" />
+<file name=".\timing.h" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\app.o">
+<dep name=".\Generated_Source\PSoC4\Clock_1.h" />
+<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Timer_1.h" />
+<dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
+<dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0plus.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0plus_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
+<dep name=".\Generated_Source\PSoC4\cyPm.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
 <dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.c" />
 <dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\cyapicallbacks.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Configuration.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Control.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Filter.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Processing.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_RegisterMap.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Sensing.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_SensingCSD_LL.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_SmartSense_LL.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
+<dep name=".\Generated_Source\PSoC4\project.h" />
+<dep name=".\Generated_Source\PSoC4\time_1ms_ISR.h" />
+<dep name=".\app.c" />
+<dep name=".\app.h" />
+<dep name=".\key.h" />
+<dep name=".\key_config.h" />
+<dep name=".\simple_protocol.h" />
+<dep name=".\timing.h" />
+<dep name=".\types.h" />
 </file>
-<file name=".\Generated_Source\PSoC4\cyfitter_cfg.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\cymetadata.o">
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cymetadata.c" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\cymetadata.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\cyutils.o">
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\cyutils.c" />
-</file>
-<file name=".\Generated_Source\PSoC4\cyutils.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\isr_wdt.o">
+<file name=".\app.c" />
+<file name=".\app.h" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\main.o">
+<dep name=".\Generated_Source\PSoC4\Clock_1.h" />
+<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Timer_1.h" />
+<dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
+<dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0plus.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0plus_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
+<dep name=".\Generated_Source\PSoC4\cyPm.h" />
 <dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
 <dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\isr_wdt.c" />
-<dep name=".\Generated_Source\PSoC4\isr_wdt.h" />
-<dep name=".\cyapicallbacks.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Configuration.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Control.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Filter.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Processing.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_RegisterMap.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Sensing.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_SensingCSD_LL.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_SmartSense_LL.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
+<dep name=".\Generated_Source\PSoC4\project.h" />
+<dep name=".\Generated_Source\PSoC4\time_1ms_ISR.h" />
+<dep name=".\app.h" />
+<dep name=".\key.h" />
+<dep name=".\key_config.h" />
+<dep name=".\main.c" />
+<dep name=".\simple_protocol.h" />
+<dep name=".\task_manager.h" />
+<dep name=".\timing.h" />
+<dep name=".\types.h" />
 </file>
-<file name=".\Generated_Source\PSoC4\isr_wdt.c" />
-<file name=".\Generated_Source\PSoC4\isr_wdt.h" />
+<file name=".\main.c" />
+<file name=".\task_manager.h" />
 <file name=".\CortexM0p\ARM_GCC_493\Debug\key_touch_Control.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -228,17 +236,7 @@
 <dep name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
 <dep name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
 </file>
-<file name=".\Generated_Source\PSoC4\key_touch_Configuration.h" />
 <file name=".\Generated_Source\PSoC4\key_touch_Control.c" />
-<file name=".\Generated_Source\PSoC4\key_touch_Control.h" />
-<file name=".\Generated_Source\PSoC4\key_touch_Filter.h" />
-<file name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
-<file name=".\Generated_Source\PSoC4\key_touch_Processing.h" />
-<file name=".\Generated_Source\PSoC4\key_touch_Sensing.h" />
-<file name=".\Generated_Source\PSoC4\key_touch_SensingCSD_LL.h" />
-<file name=".\Generated_Source\PSoC4\key_touch_SmartSense_LL.h" />
-<file name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
-<file name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
 <file name=".\CortexM0p\ARM_GCC_493\Debug\key_touch_Filter.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -268,17 +266,7 @@
 <dep name=".\cyapicallbacks.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\key_touch_INT.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\key_touch_ISR.o">
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_ISR.c" />
-<dep name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
-<dep name=".\cyapicallbacks.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\key_touch_ISR.c" />
+<file name=".\cyapicallbacks.h" />
 <file name=".\CortexM0p\ARM_GCC_493\Debug\key_touch_Processing.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -350,6 +338,225 @@
 <dep name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\key_touch_Tuner.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\key_config.o">
+<dep name=".\Generated_Source\PSoC4\Clock_1.h" />
+<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\Timer_1.h" />
+<dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
+<dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
+<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0plus.h" />
+<dep name=".\Generated_Source\PSoC4\core_cm0plus_psoc4.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
+<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
+<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_RegisterMap.h" />
+<dep name=".\Generated_Source\PSoC4\project.h" />
+<dep name=".\Generated_Source\PSoC4\time_1ms_ISR.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cyPm.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Configuration.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Control.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Filter.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Processing.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Sensing.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_SensingCSD_LL.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_SmartSense_LL.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
+<dep name=".\key_config.c" />
+<dep name=".\key_config.h" />
+<dep name=".\types.h" />
+</file>
+<file name=".\key_config.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\Clock_1.o">
+<dep name=".\Generated_Source\PSoC4\Clock_1.c" />
+<dep name=".\Generated_Source\PSoC4\Clock_1.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Clock_1.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\Cm0plusStart.o">
+<dep name=".\Generated_Source\PSoC4\Cm0plusStart.c" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Cm0plusStart.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\CyFlash.o">
+<dep name=".\Generated_Source\PSoC4\CyFlash.c" />
+<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CyFlash.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\CyLFClk.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.c" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CyLFClk.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\CyLib.o">
+<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.c" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\CyLib.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_CLOCK.o">
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.c" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_CLOCK_PM.o">
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_PM.c" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_PM.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_DATA.o">
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.c" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\SIMPLE_DATA.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_DATA_PM.o">
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_PM.c" />
+<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\SIMPLE_DATA_PM.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\Timer_1.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\Timer_1.c" />
+<dep name=".\Generated_Source\PSoC4\Timer_1.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Timer_1.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\Timer_1_PM.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\Timer_1.h" />
+<dep name=".\Generated_Source\PSoC4\Timer_1_PM.c" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\Timer_1_PM.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\WAKE_UP.o">
+<dep name=".\Generated_Source\PSoC4\WAKE_UP.c" />
+<dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
+<dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\WAKE_UP.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\WAKE_UP_PM.o">
+<dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
+<dep name=".\Generated_Source\PSoC4\WAKE_UP_PM.c" />
+<dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\WAKE_UP_PM.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\cyPm.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cyPm.c" />
+<dep name=".\Generated_Source\PSoC4\cyPm.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cypins.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\cyPm.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\cyfitter_cfg.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.c" />
+<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\cyfitter_cfg.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\cymetadata.o">
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cymetadata.c" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\cymetadata.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\cyutils.o">
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\Generated_Source\PSoC4\cyutils.c" />
+</file>
+<file name=".\Generated_Source\PSoC4\cyutils.c" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\key_touch_ISR.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\Generated_Source\PSoC4\key_touch_ISR.c" />
+<dep name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\key_touch_ISR.c" />
 <file name=".\CortexM0p\ARM_GCC_493\Debug\time_1ms_ISR.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -361,229 +568,6 @@
 <dep name=".\cyapicallbacks.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\time_1ms_ISR.c" />
-<file name=".\Generated_Source\PSoC4\time_1ms_ISR.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\app.o">
-<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0plus.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0plus_psoc4.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
-<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_RegisterMap.h" />
-<dep name=".\Generated_Source\PSoC4\project.h" />
-<dep name=".\Generated_Source\PSoC4\Clock_1.h" />
-<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Timer_1.h" />
-<dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
-<dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cyPm.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\isr_wdt.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Configuration.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Control.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Filter.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Processing.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Sensing.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_SensingCSD_LL.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_SmartSense_LL.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
-<dep name=".\Generated_Source\PSoC4\time_1ms_ISR.h" />
-<dep name=".\app.c" />
-<dep name=".\app.h" />
-<dep name=".\key.h" />
-<dep name=".\key_config.h" />
-<dep name=".\simple_protocol.h" />
-<dep name=".\timing.h" />
-<dep name=".\types.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
-<file name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
-<file name=".\Generated_Source\PSoC4\core_cm0plus.h" />
-<file name=".\Generated_Source\PSoC4\core_cm0plus_psoc4.h" />
-<file name=".\Generated_Source\PSoC4\core_cmFunc.h" />
-<file name=".\Generated_Source\PSoC4\core_cmInstr.h" />
-<file name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
-<file name=".\Generated_Source\PSoC4\key_touch.h" />
-<file name=".\Generated_Source\PSoC4\key_touch_RegisterMap.h" />
-<file name=".\Generated_Source\PSoC4\project.h" />
-<file name=".\app.c" />
-<file name=".\app.h" />
-<file name=".\key.h" />
-<file name=".\key_config.h" />
-<file name=".\simple_protocol.h" />
-<file name=".\timing.h" />
-<file name=".\types.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\key.o">
-<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0plus.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0plus_psoc4.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
-<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_RegisterMap.h" />
-<dep name=".\Generated_Source\PSoC4\project.h" />
-<dep name=".\Generated_Source\PSoC4\Clock_1.h" />
-<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Timer_1.h" />
-<dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
-<dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cyPm.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\isr_wdt.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Configuration.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Control.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Filter.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Processing.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Sensing.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_SensingCSD_LL.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_SmartSense_LL.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
-<dep name=".\Generated_Source\PSoC4\time_1ms_ISR.h" />
-<dep name=".\key.c" />
-<dep name=".\key.h" />
-<dep name=".\key_config.h" />
-<dep name=".\types.h" />
-</file>
-<file name=".\key.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\key_config.o">
-<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0plus.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0plus_psoc4.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
-<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_RegisterMap.h" />
-<dep name=".\Generated_Source\PSoC4\project.h" />
-<dep name=".\Generated_Source\PSoC4\Clock_1.h" />
-<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Timer_1.h" />
-<dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
-<dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cyPm.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\isr_wdt.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Configuration.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Control.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Filter.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Processing.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Sensing.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_SensingCSD_LL.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_SmartSense_LL.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
-<dep name=".\Generated_Source\PSoC4\time_1ms_ISR.h" />
-<dep name=".\key_config.c" />
-<dep name=".\key_config.h" />
-<dep name=".\types.h" />
-</file>
-<file name=".\key_config.c" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\main.o">
-<dep name=".\Generated_Source\PSoC4\cmsis_armcc.h" />
-<dep name=".\Generated_Source\PSoC4\cmsis_gcc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0plus.h" />
-<dep name=".\Generated_Source\PSoC4\core_cm0plus_psoc4.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmFunc.h" />
-<dep name=".\Generated_Source\PSoC4\core_cmInstr.h" />
-<dep name=".\Generated_Source\PSoC4\cydisabledsheets.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_RegisterMap.h" />
-<dep name=".\Generated_Source\PSoC4\project.h" />
-<dep name=".\Generated_Source\PSoC4\Clock_1.h" />
-<dep name=".\Generated_Source\PSoC4\CyFlash.h" />
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\Timer_1.h" />
-<dep name=".\Generated_Source\PSoC4\WAKE_UP.h" />
-<dep name=".\Generated_Source\PSoC4\WAKE_UP_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cyPm.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter_cfg.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\Generated_Source\PSoC4\isr_wdt.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Configuration.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Control.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Filter.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_ISR.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Processing.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Sensing.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_SensingCSD_LL.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_SmartSense_LL.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Structure.h" />
-<dep name=".\Generated_Source\PSoC4\key_touch_Tuner.h" />
-<dep name=".\Generated_Source\PSoC4\time_1ms_ISR.h" />
-<dep name=".\app.h" />
-<dep name=".\key.h" />
-<dep name=".\key_config.h" />
-<dep name=".\main.c" />
-<dep name=".\simple_protocol.h" />
-<dep name=".\task_manager.h" />
-<dep name=".\timing.h" />
-<dep name=".\types.h" />
-</file>
-<file name=".\main.c" />
-<file name=".\task_manager.h" />
-<file name=".\CortexM0p\ARM_GCC_493\Debug\simple_protocol.o">
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_CLOCK_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA.h" />
-<dep name=".\Generated_Source\PSoC4\SIMPLE_DATA_aliases.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cypins.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-<dep name=".\simple_protocol.c" />
-<dep name=".\simple_protocol.h" />
-<dep name=".\timing.h" />
-<dep name=".\types.h" />
-</file>
-<file name=".\simple_protocol.c" />
 <file name=".\CortexM0p\ARM_GCC_493\Debug\CyBootAsmGnu.o">
 <dep name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <dep name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
@@ -592,6 +576,18 @@
 <file name=".\Generated_Source\PSoC4\CyBootAsmGnu.s" />
 <file name=".\Generated_Source\PSoC4\cydevicegnu_trm.inc" />
 <file name=".\Generated_Source\PSoC4\cyfittergnu.inc" />
+<file name=".\CortexM0p\ARM_GCC_493\Debug\isr_wdt.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+<dep name=".\Generated_Source\PSoC4\isr_wdt.c" />
+<dep name=".\Generated_Source\PSoC4\isr_wdt.h" />
+<dep name=".\cyapicallbacks.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\isr_wdt.c" />
+<file name=".\Generated_Source\PSoC4\isr_wdt.h" />
 <file name=".\CortexM0p\ARM_GCC_493\Debug\task_manager.o">
 <dep name=".\task_manager.c" />
 <dep name=".\task_manager.h" />
@@ -1606,7 +1602,6 @@
 <dep name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_CLOCK_PM.o" />
 <dep name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_DATA.o" />
 <dep name=".\CortexM0p\ARM_GCC_493\Debug\SIMPLE_DATA_PM.o" />
-<dep name=".\CortexM0p\ARM_GCC_493\Debug\isr_wdt.o" />
 <dep name=".\CortexM0p\ARM_GCC_493\Debug\AYBR3000.a" />
 </file>
 </CyGuid_1173175f-1b9b-4ad4-a065-754a48a27021>
@@ -2042,18 +2037,6 @@
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_noconnect_v1_0\cy_analog_noconnect_v1_0.pdf</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_noconnect_v1_0\cy_analog_noconnect_v1_0.primitive</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_analog_noconnect_v1_0\Custom\custom.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\cy_gsref_v2_0.cysym</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\cy_gsref_v2_0.pdf</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\cy_gsref_v2_0.cystate</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\cy_gsref_v2_0.cyprimitive</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\Custom\custom.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\Custom\cycenteredtextcontrol.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\Custom\cycenteredtextcontrol.designer.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\Custom\cygsrefidcontrol.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\Custom\cygsrefidcontrol.designer.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\Custom\cycenteredtextcontrol.resx</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0\Custom\cygsrefidcontrol.resx</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_gsref_v2_0</v>
 <v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\TCPWM_P4_v2_10\TCPWM_P4_v2_10.cystate</v>
 <v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\TCPWM_P4_v2_10\TCPWM_P4_v2_10.cysym</v>
 <v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\TCPWM_P4_v2_10\TCPWM_P4_v2_10.pdf</v>
@@ -2247,13 +2230,6 @@
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\PSoC4\API\pins.h</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\PSoC4\API\aliases.h</v>
 <v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_pins_v2_20\PSoC4\API\pins_PM.c</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cysym</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.pdf</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.primitive</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\cy_isr_v1_70.cystate</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\Custom\custom.cs</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC4\API\intc.c</v>
-<v>${CyRoot}\psoc\content\cyprimitives\CyPrimitives.cylib\cy_isr_v1_70\PSoC4\API\intc.h</v>
 <v>.\AYBR3000.cydwr</v>
 <v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v5_50\PSoC4\API\cm0gcc.ld</v>
 <v>${CyRoot}\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\cy_boot_v5_50\PSoC4\API\Cm0RealView.scat</v>
@@ -2488,7 +2464,7 @@
 <v>D:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\mod_genv.vif</v>
 <v>D:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="131534906857400000" />
+<deps_time v="131537544474960000" />
 <top_block v="TopDesign" />
 <last_generation v="1" />
 <pdl_path v="" />
@@ -2496,13 +2472,14 @@
 </dataGuid>
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
-<deps_time v="131534907419680000" />
+<deps_time v="131538232275240002" />
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
 <dataGuid v="504337dd-7d07-4bc7-9057-90e60cf6c469">
 <CyGuid_504337dd-7d07-4bc7-9057-90e60cf6c469 type_name="CyDesigner.Common.Debugger.CyBreakpointList" version="1">
 <debugger_breakpoint_list>
 <CyGuid_76464711-0ae1-4583-b869-f07a0403fc6e type_name="CyDesigner.Common.Debugger.CyFileLineBreakpoint" version="1" hitcount="0" condition="" enabled="True" hardware="True" temparary="False" filename=".\Generated_Source\PSoC4\Cm0plusStart.c" linenumber="117" />
+<CyGuid_76464711-0ae1-4583-b869-f07a0403fc6e type_name="CyDesigner.Common.Debugger.CyFileLineBreakpoint" version="1" hitcount="0" condition="" enabled="True" hardware="True" temparary="False" filename=".\key.c" linenumber="71" />
 </debugger_breakpoint_list>
 </CyGuid_504337dd-7d07-4bc7-9057-90e60cf6c469>
 </dataGuid>
@@ -2517,6 +2494,7 @@
 <CyGuid_ccf7a56e-c00d-460c-82dd-56c8f54feb7f type_name="CyDesigner.Common.Debugger.CyWatchedVariableList+CyWatchedItem" version="1" window="0" name="receive_buffer" radix="Default" />
 <CyGuid_ccf7a56e-c00d-460c-82dd-56c8f54feb7f type_name="CyDesigner.Common.Debugger.CyWatchedVariableList+CyWatchedItem" version="1" window="0" name="event_handlers" radix="Default" />
 <CyGuid_ccf7a56e-c00d-460c-82dd-56c8f54feb7f type_name="CyDesigner.Common.Debugger.CyWatchedVariableList+CyWatchedItem" version="1" window="0" name="keys" radix="Default" />
+<CyGuid_ccf7a56e-c00d-460c-82dd-56c8f54feb7f type_name="CyDesigner.Common.Debugger.CyWatchedVariableList+CyWatchedItem" version="1" window="0" name="send_buffer" radix="Default" />
 </debugger_watch_list>
 </CyGuid_bf610382-39c6-441f-80b8-b04622ea7845>
 </dataGuid>

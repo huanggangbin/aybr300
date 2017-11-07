@@ -191,7 +191,11 @@ static void key_conbine_check(void)
     }
 
     if (key_count == 2)
+    {
         key_combine_deal(key1, key2);
+        state[key1] = KEY_RELEASE;
+        state[key2] = KEY_RELEASE;
+    }
 }
 
 /* [] END OF FILE */

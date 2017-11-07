@@ -15,7 +15,6 @@ static uint16 timing_get_count(void)
 /*
 **设置定时长度,
 */
-
 void timing_set_counts(Timing_type *pdata, uint16 set_count)
 {   
     pdata->old_count = timing_get_count();   
